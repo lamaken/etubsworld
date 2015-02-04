@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			body {
+				margin: 500px;
+				padding:500px;
+			}
+		</style>
+
+		<script type="text/javascript" src="js/tubsworld.js"></script>
+		<script type="text/javascript" src="js/circuitdyn.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/Manifest.js"></script>
+		<script type="text/javascript" src="js/debug.js"></script>
+		<script type="text/javascript" src="js/draw.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+
+	<body onload="start();">
+		
+		<canvas  id="myCanvas" width="550" height="550"> 
+                    <!-- TODO:Pensar en fer amb els tamanys -->
+		NO CANVAS!!
+		</canvas>
+		<div id="pathsandtubs">
+			
+					
+		</div>
+			<div id="debug">
+				error
+			</div>
+		<script> 
+		
+			var debug = new Debug("html5");
+			debug.output("let's go!");
+			
+			</script>
+		
+		<div id="src">
+		<form name="fmain">
+			<div id="buttons">
+				<input  type="button" onclick="update()" value="Dibuixa!" />
+				<input  type="button" onclick="swap()" value="swap gates" />
+			</div>
+			<textarea onkeyup="update()" id="drop_zone" style="height:80%; width:90%" name="drop_zone" >Deixa aqui els circuits.xml</textarea>
+			<div id="circuits">
+					<select name="circuits">
+						<option value="default.xml">tubsworld</option>
+						<option value="circuit1.xml">circuit1</option>
+						<option value="circuit1b.xml">circuit1b</option>
+						<option value="circuit2.xml">circuit2</option>
+						<option value="circuit3.xml">circuit3</option>
+						<option value="circuit4.xml">circuit4</option>
+						<option value="circuit4b.xml">circuit4b</option>
+						<option value="circuit5.xml">circuit5</option>
+						<option value="circuit6.xml">circuit6</option>
+						<option value="circuit7.xml">circuit7</option>
+						<option value="circuit8.xml">circuit8</option>
+						<option value="circuit9.xml">circuit9</option>
+						<option value="circuit10.xml">circuit10</option>
+                                                <option value="circuit11.xml">circuit11</option>
+   
+                                        </select>
+					<input  type="button" onclick="start()" value="Carregar" />
+					<input  type="button" onclick="play()" value="Play!" />
+					
+					
+					<a style="color: #999999" href="index.html">circuitstubs</a>
+				</div>
+		
+		
+		</form>
+		
+	
+		
+		
+		
+	</div>
+	</body>
+</html>

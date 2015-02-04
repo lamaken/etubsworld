@@ -1,0 +1,78 @@
+fer el control del codi de text on hi ha el xml
+
+
+
+poder guardar un circuit
+<circut tubs,, >xml etc..
+
+
+
+fer tres circuits per nadal
+
+
+
+
+
+començar a generar circuits aleatoris
+
+save (copy paste)
+
+fer js de control de llengues .. català anglès español ..etc..
+poder guardar ( per ara fer un botó de copiar en portaretalls) 
+
+
+3 juny 2004
+s'actualiza automaticament quan escrius al xml
+agrupa paths en el hint
+
+
+TODO:
+
+boto lupa:
+	si està actiu: quan passi per sobre la curva ilumini la part de codi en texte
+botó ull als hints de paths i gates si activat veus les lletres en el dibuix
+
+posar lletres
+posar nom del cirucit en els hints  o al caregar en debug
+
+fer js de control de llengues .. català anglès español ..etc..
+poder guardar ( per ara fer un botó de copiar en portaretalls) 
+
+3 juny 2004
+
+boto lupa:
+si està actiu: quan passi per sobre la curva ilumini la part de codi en texte
+
+
+
+1 juny 2014
+
+circuitstubs v0.1.02
+
+*) començar a portar un control de versions
+
+afageixo botó per fer el swap gates
+afageixo hints
+
+
+10*) tamany del canvas a escala, i posar linees de coordenades
+9*) afegir bola i que segueixi el path
+8*) posar icones
+7*) afagir el nom dels paths i dels gates en el hint
+6*) mostrar noms del paths
+5*) es puguin seleccionar paths i gates clicant en els hints
+4*) intento arreglar tots els circuits per que es vegin be
+3*) afageixo dos botos un pel gates i un altre de play/stop
+2) fer boto de gates clicant canvi de gates
+1*) fer el play/stop afagint una bola i vagi pel circuit
+0) millorant interficie
+
+*pendent
+
+
+17 maig 2014
+
+afageixo draw()
+ja pinta el circuit com  a molt amb 4 punts
+s'hauran de canviar els archius dels circuits per que siguin compatibles amb html5
+
