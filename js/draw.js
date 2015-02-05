@@ -100,7 +100,7 @@ function init() {
 
 function load(quin) {
 	debug.output("Load:" + quin);
-	xmlDoc = loadXMLDoc("../circuitstubs/xmlcircuits/" + quin);
+	xmlDoc = loadXMLDoc("xmlcircuits/" + quin);
 	var xmlString = (new XMLSerializer()).serializeToString(xmlDoc);
 	document.fmain.drop_zone.value = xmlString;
 	init();
