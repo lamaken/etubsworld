@@ -187,20 +187,7 @@ function writedata() {
 
 }
 
-function play() {
-	if (action == "run") {
-		action = "edit";
-		document.getElementById("tbcanvas").style.visibility = "hidden";
-		document.getElementById("canvas").style.visibility = "visible";
 
-	} else {
-		action = "run";
-		document.getElementById("tbcanvas").style.visibility = "visible";
-		document.getElementById("canvas").style.visibility = "hidden";
-		run();
-	}
-
-}
 
 function generateView() {
 

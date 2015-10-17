@@ -294,6 +294,14 @@ function tubsworld() {
 		gr.drawText(circuitXML.paths[p].name, new jsPoint(absx, absy), "", new jsColor("red"), "0.2", "center");
 		drawPolyBezier();
 
+
+
+		/*
+		var ctx=c.getContext("2d");
+        var img=document.getElementById("scream");
+        ctx.drawImage(img,10,10);
+            */
+
 	}
 	//gates
 	document.forms.fmain.color.value = "#AA0000";

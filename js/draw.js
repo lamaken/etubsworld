@@ -17,28 +17,21 @@ function gatesHint(pgHint, gateorpath, link) {
 	pgHint.innerHTML = pgHint.innerHTML + "<a onmouseover=\"iluminagate('"+gateorpath+"')\" href='#'>" + gateorpath + "</a>";
 }
 
-/*
- function gatesHint(pgHint,gateorpath) {
- pgHint.innerHTML = pgHint.innerHTML + "|	<a href='#'>" + gateorpath + "</a>";
- }
- */
 
 function iluminapath(name) {
-	
 	loadCircuit();
 	initcanvas();
 	clear();
 	drawAll();
 	drawPathsIlumina(name);
-	
 }
+
 function iluminagate(name){
-    	loadCircuit();
+    loadCircuit();
 	initcanvas();
 	clear();
 	drawAll();
     drawGatesIlumina(name);
-
 }
 
 function drawPathsIlumina(name) {
@@ -326,4 +319,30 @@ function writeTxt(color,x,y,text){
     
         context.stroke();
 	
+}
+
+function play() {
+
+	var EXIT = "-1";
+	for(var n=0;n!=EXIT;n++){
+	}
+
+var curve = new CurveAnimator(
+  [128,300], [321,300],
+  [139,68], [290,58]
+);
+
+var o = document.getElementById('img');
+o.style.position = 'absolute';
+
+curve.animate(2, function(point,angle){
+  o.style.left = point.x+"px";
+  o.style.top  = point.y+"px";
+  o.style.transform =
+    o.style.webkitTransform =
+    o.style.MozTransform =
+    "rotate("+angle+"deg)";
+});
+
+
 }
