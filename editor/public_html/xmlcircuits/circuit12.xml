@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuit id="12" name="twelve" author="tubsworld" md5="1da60adaed4c7140145033842ea368a0" version="1"  image="glifo12">
+
+
+    <paths>
+
+        <path name="p1" nextpath="a">
+            <coord type="start" x="0.8" y="1"/>
+            <coord type="normal" x="-0.5" y="1"/>
+            <coord type="normal" x="-0.5" y="0.9"/>
+        </path>
+
+
+        <path name="a" nextgate="ga">
+            <coord type="normal" x="-0.5" y="0.9"/>
+            <coord type="normal" x="-0.5" y="0.8"/>
+        </path>
+
+
+        <path name="b" nextgate="gb">
+            <coord type="normal" x="-0.5" y="0.6"/>
+            <coord type="normal" x="-0.5" y="-0.8"/>
+        </path>
+
+
+        <path name="d" nextpath="e">
+            <coord type="normal" x="-0.3" y="0.6"/>
+            <coord type="normal" x="0.1" y="0.6"/>
+        </path>
+
+        <path name="e" nextpath="f">
+            <coord type="normal" x="0.1" y="0.6"/>
+            <coord type="norma" x="0.5" y="0.6"/>
+            <coord type="normal" x="0.5" y="0.3"/>
+        </path>
+
+        <path name="f" nextpath="g">
+            <coord type="normal" x="0.5" y="0.3"/>
+            <coord type="normal" x="0.5" y="0.0"/>
+        </path>
+        <path name="g" nextpath="h">
+            <coord type="normal" x="0.5" y="0.0"/>
+            <coord type="normal" x="0.5" y="-0.3"/>
+        </path>
+
+        <path name="h" nextgate="gc">
+            <coord type="normal" x="0.5" y="-0.3"/>
+            <coord type="normal" x="0.5" y="-0.8"/>
+        </path>
+
+
+
+
+
+
+
+
+        <path name="deathA" nextpath="p1">
+            <coord type="normal" x="-0.5" y="-1"/>
+            <coord type="kill" x="-0.5" y="-1"/>
+        </path>
+
+        <path name="saveA">
+            <coord type="normal" x="-0.1" y="-1"/>
+            <coord type="end" x="-0.0" y="-1"/>
+        </path>
+
+        <path name="saveB">
+            <coord type="normal" x="0.1" y="-1"/>
+            <coord type="end" x="0.0" y="-1"/>
+        </path>
+
+
+        <path name="deathB" nextpath="p1">
+            <coord type="normal" x="0.5" y="-1"/>
+            <coord type="kill" x="0.5" y="-1"/>
+        </path>
+
+
+
+    </paths>
+
+
+
+
+
+    <gates>
+
+        <gate name="ga">
+
+            <path name="ga1" nextpath="b">
+                <coord type="normal" x="-0.5" y="0.8"/>
+                <coord type="normal" x="-0.5" y="0.6"/>
+            </path>
+            <path name="ga2" nextpath="d">
+                <coord type="normal" x="-0.5" y="0.8"/>
+                <coord type="normal" x="-0.5" y="0.6"/>
+                <coord type="normal" x="-0.3" y="0.6"/>
+            </path>
+
+        </gate>
+
+        <gate name="gb">
+            <path name="gb1" nextpath="deathA">
+                <coord type="normal" x="-0.5" y="-0.8"/>
+                <coord type="kill" x="-0.5" y="-1"/>
+            </path>
+
+            <path name="gb2" nextpath="saveA">
+                <coord type="normal" x="-0.5" y="-0.8"/>
+                <coord type="normal" x="-0.5" y="-1"/>
+                <coord type="normal" x="-0.1" y="-1"/>
+            </path>
+        </gate>
+
+
+
+        <gate name="gc">
+            <path name="gc1" nextpath="saveB">
+                <coord type="normal" x="0.5" y="-0.8"/>
+                <coord type="normal" x="0.5" y="-1"/>
+                <coord type="normal" x="0.1" y="-1"/>
+
+            </path>
+
+            <path name="gc2" nextpath="deathB">
+                <coord type="normal" x="0.5" y="-0.8"/>
+                <coord type="normal" x="0.5" y="-1"/>
+
+            </path>
+        </gate>
+
+
+    </gates>
+
+</circuit>

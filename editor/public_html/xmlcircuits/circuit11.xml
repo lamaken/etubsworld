@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuit id="11" name="eleven" author="tubsworld" md5="e8278dfd453b0a9dcb057d58749c0fc4" version="1">
+
+    <paths>
+        <path name="A" nextpath="B">
+            <coord type="start" x="0" y="1"/>
+            <coord type="normal" x="0" y="0.5"/>
+        </path>
+        <path name="B" nextgate="gB">
+            <coord type="normal" x="0" y="0.5"/>
+            <coord type="normal" x="0" y="-0.1"/>
+        </path>
+
+        <path name="C" nextgate="gC">
+            <coord type="normal" x="-0.2" y="-0.3"/>
+            <coord type="normal" x="-0.2" y="-0.6"/>
+        </path>
+        <path name="D" nextgate="gD">
+            <coord type="normal" x="0.2" y="-0.3"/>
+            <coord type="normal" x="0.2" y="-0.6"/>
+        </path>
+        <path name="N" nextpath="A">
+            <coord type="normal" x="0.2" y="-0.8"/>
+            <coord type="kill" x="0.2" y="-1"/>
+        </path>
+        <path name="M">
+            <coord type="normal" x="-0.2" y="-0.8"/>
+            <coord type="end" x="-0.2" y="-1"/>
+        </path>
+
+
+
+        <path name="E" nextpath="H">
+            <coord type="normal" x="-0.4" y="-0.8"/>
+            <coord type="normal" x="-0.5" y="-0.9"/>
+        </path>
+        <path name="F" nextpath="G">
+            <coord type="normal" x="0.4" y="-0.8"/>
+            <coord type="normal" x="0.5" y="-0.9"/>
+        </path>
+
+        <path name="G" nextpath="K">
+            <coord type="normal" x="0.5" y="-0.9"/>
+            <coord type="normal" x="1" y="0"/>
+            <coord type="normal" x="0.5" y="0.7"/>
+        </path>
+        <path name="H" nextpath="L">
+            <coord type="normal" x="-0.5" y="-0.9"/>
+            <coord type="normal" x="-1" y="0"/>
+            <coord type="normal" x="-0.5" y="0.7"/>
+        </path>
+        <path name="K" nextpath="B">
+            <coord type="normal" x="0.5" y="0.7"/>
+            <coord type="normal" x="0" y="0.5"/>
+        </path>
+        <path name="L" nextpath="B">
+            <coord type="normal" x="-0.5" y="0.7"/>
+            <coord type="normal" x="0" y="0.5"/>
+        </path>
+
+
+    </paths>
+    <gates>
+        <gate name="gB">
+            <path name="gB1" nextpath="C">
+                <coord type="normal" x="0" y="-0.1"/>
+                <coord type="normal" x="-0.2" y="-0.3"/>
+            </path>
+
+            <path name="gB2" nextpath="D">
+                <coord type="normal" x="0" y="-0.1"/>
+                <coord type="normal" x="0.2" y="-0.3"/>
+            </path>
+
+
+        </gate>
+        <gate name="gC">
+            <path name="gC1" nextpath="E">
+                <coord type="normal" x="-0.2" y="-0.6"/>
+                <coord type="normal" x="-0.4" y="-0.8"/>
+            </path>
+
+            <path name="gC2" nextpath="M">
+                <coord type="normal" x="-0.2" y="-0.6"/>
+                <coord type="normal" x="-0.2" y="-0.8"/>
+            </path>
+
+
+        </gate>
+        <gate name="gD">
+            <path name="gD1" nextpath="N">
+                <coord type="normal" x="0.2" y="-0.6"/>
+                <coord type="normal" x="0.2" y="-0.8"/>
+            </path>
+
+            <path name="gD2" nextpath="F">
+                <coord type="normal" x="0.2" y="-0.6"/>
+                <coord type="normal" x="0.4" y="-0.8"/>
+            </path>
+
+
+        </gate>
+    </gates>
+</circuit>

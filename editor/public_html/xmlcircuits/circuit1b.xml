@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><circuit id="1b" name="first changed" author="tubsworld" md5="383c6c5c7bd36705b05042297d08ce97" version="1">
+
+	<paths>
+
+		<path name="a" nextpath="b">
+			<coord type="start" x="-0.9" y="0"/>
+			<coord type="normal" x="-0.4" y="0"/>
+		</path>
+
+		<path name="b" nextgate="gA">
+			<coord type="normal" x="-0.4" y="0"/>
+			<coord type="normal" x="-0.1" y="0"/>
+		</path>
+
+		<path name="c" nextpath="b">
+			<coord type="normal" x="0" y="0.2"/>
+			<coord type="normal" x="0.5" y="1"/>
+			<coord type="normal" x="-1" y="1"/>
+			<coord type="normal" x="-0.4" y="0.0"/>
+		</path>
+
+		<path name="d" nextgate="gB">
+			<coord type="normal" x="0.0" y="-0.2"/>
+			<coord type="normal" x="0.5" y="-0.2"/>
+			<coord type="normal" x="0.5" y="0.0"/>
+		</path>
+
+		<path name="e" nextpath="a">
+			<coord type="normal" x="0.65" y="0.15"/>
+			<coord type="kill" x="0.9" y="0.6"/>
+		</path>
+
+		<path name="f">
+			<coord type="normal" x="0.7" y="0"/>
+			<coord type="end" x="0.9" y="0"/>
+		</path>
+	</paths>
+
+	<gates>
+		<gate name="gA">
+			<path name="gA1" nextpath="c">
+				<coord type="normal" x="-0.1" y="0.0"/>
+				<coord type="normal" x="0.0" y="0.2"/>
+			</path>
+
+			<path name="gA2" nextpath="d">
+				<coord type="normal" x="-0.1" y="0.0"/>
+				<coord type="normal" x="0.0" y="-0.2"/>
+			</path>
+		</gate>
+
+		<gate name="gB">
+			<path name="gB1" nextpath="f">
+				<coord type="normal" x="0.5" y="0"/>
+				<coord type="normal" x="0.7" y="0"/>
+			</path>
+
+			<path name="gB2" nextpath="e">
+				<coord type="normal" x="0.5" y="0"/>
+				<coord type="normal" x="0.65" y="0.15"/>
+			</path>
+		</gate>
+	</gates>
+
+</circuit>
