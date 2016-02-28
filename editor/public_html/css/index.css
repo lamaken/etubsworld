@@ -20,23 +20,22 @@ body {
 }
 
 
-#canvas {
+#pathsandtubs{
+	color:black;
+	width:43%;
+	background-color:#aaaaaa;
+	bottom: 10px;
 	left: 20px;
-	top: 20px;
-	width: 43%;
-	bottom:100px;
-	padding: 20px;
-	background-color: white;
-	color: green;
 	position: absolute;
-	border: #999999 1px solid;
+	padding: 15px;
+	top:90%;
 }
 
 
 #myCanvas {
 	left: 20px;
 	top: 20px;
-	right:500px;
+	right:120px;
 	bottom:500px;
 	background-color: black;
 	color: green;
@@ -71,10 +70,10 @@ body {
 }
 #src {
 	bottom: 100px;
-	width: 43%;
+	width: 46%;
 	top: 20px;
 	right: 20px;
-	padding: 20px;
+        padding: 5px;
 	background-color: #333333;
 	color: green;
 	position: absolute;
