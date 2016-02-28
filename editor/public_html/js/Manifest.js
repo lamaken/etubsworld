@@ -1,7 +1,7 @@
 var packagename = "visualk.games.circuitstubs";
 var revision = ".0";
-var version = "v0.2";
-var projectname = "circuitstubs";
+var version = "v0.0.1";
+var projectname = "etubsworld";
 var changes = "Initial steps.";
 var description = "Try to save the balls in theirs houses.";
 var debugmode = false;

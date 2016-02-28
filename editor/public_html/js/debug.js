@@ -19,7 +19,7 @@ Debug.prototype.output = function(text){
 Debug.prototype.clear = function(){
 	var m = new Manifest();
 	var div_debug = document.getElementById("debug");
-	div_debug.innerHTML=m.getrelease()+"_debug"; 
+	div_debug.innerHTML=m.getrelease(); 
 	div_debug.scrollTop = div_debug.scrollHeight;
 };
 

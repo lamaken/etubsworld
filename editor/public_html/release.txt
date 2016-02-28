@@ -1,3 +1,9 @@
+ja comença a animar pilotes
+
+
+
+
+
 fer el control del codi de text on hi ha el xml
 
 
