@@ -28,7 +28,7 @@ function animate() {
     // request another frame
     setTimeout(function() {
         requestAnimationFrame(animate);
-    }, 400 / fps);
+    }, 1400 / fps);
 }
 
 
