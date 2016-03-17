@@ -8,59 +8,59 @@
             <coord type="normal" x="-0.9" y="0.9"/>
             <coord type="normal" x="0" y="0.9"/>
         </path>
-        <path name="b" nextpath="b">
+        <path name="b" nextpath="c">
             <coord type="start" x="0" y="0.9"/>
             <coord type="normal" x="0.9" y="0.9"/>
             <coord type="normal" x="0.9" y="0"/>
         </path>
-        <path name="c" nextpath="b">
+        <path name="c" nextpath="d">
             <coord type="start" x="0.9" y="0"/>
             <coord type="normal" x="0.9" y="-0.9"/>
             <coord type="normal" x="0" y="-0.9"/>
         </path>
-        <path name="d" nextpath="b">
+        <path name="d" nextpath="e">
             <coord type="start" x="0" y="-0.9"/>
             <coord type="normal" x="-0.9" y="-0.9"/>
             <coord type="normal" x="-0.9" y="0"/>
         </path>
 
-        <path name="e" nextpath="b">
+        <path name="e" nextpath="f">
             <coord type="start" x="-0.7" y="0"/>
             <coord type="normal" x="-0.8" y="0.8"/>
             <coord type="normal" x="0" y="0.8"/>
         </path>
-        <path name="f" nextpath="b">
+        <path name="f" nextpath="g">
             <coord type="start" x="0" y="0.8"/>
             <coord type="normal" x="0.8" y="0.8"/>
             <coord type="normal" x="0.8" y="0"/>
         </path>
-        <path name="g" nextpath="b">
+        <path name="g" nextpath="h">
             <coord type="start" x="0.8" y="0"/>
             <coord type="normal" x="0.8" y="-0.8"/>
             <coord type="normal" x="0" y="-0.8"/>
         </path>
-        <path name="h" nextpath="b">
+        <path name="h" nextpath="i">
             <coord type="start" x="0" y="-0.8"/>
             <coord type="normal" x="-0.8" y="-0.8"/>
             <coord type="normal" x="-0.8" y="0"/>
         </path>
 
-        <path name="i" nextpath="b">
+        <path name="i" nextpath="j">
             <coord type="start" x="-0.6" y="0"/>
             <coord type="normal" x="-0.7" y="0.7"/>
             <coord type="normal" x="0" y="0.7"/>
         </path>
-        <path name="j" nextpath="b">
+        <path name="j" nextpath="k">
             <coord type="start" x="0" y="0.7"/>
             <coord type="normal" x="0.7" y="0.7"/>
             <coord type="normal" x="0.7" y="0"/>
         </path>
-        <path name="k" nextpath="b">
+        <path name="k" nextpath="l">
             <coord type="normal" x="0.7" y="0"/>
             <coord type="normal" x="0.7" y="-0.7"/>
             <coord type="normal" x="0" y="-0.7"/>
         </path>
-        <path name="l" nextpath="b">
+        <path name="l" nextpath="m">
             <coord type="start" x="0" y="-0.7"/>
             <coord type="normal" x="-0.7" y="-0.7"/>
             <coord type="normal" x="-0.7" y="0"/>
@@ -68,22 +68,22 @@
 
 
 
-        <path name="m" nextpath="b">
+        <path name="m" nextpath="n">
             <coord type="start" x="-0.5" y="0"/>
             <coord type="normal" x="-0.6" y="0.6"/>
             <coord type="normal" x="0" y="0.6"/>
         </path>
-        <path name="n" nextpath="b">
+        <path name="n" nextpath="o">
             <coord type="start" x="0" y="0.6"/>
             <coord type="normal" x="0.6" y="0.6"/>
             <coord type="normal" x="0.6" y="0"/>
         </path>
-        <path name="o" nextpath="b">
+        <path name="o" nextpath="p">
             <coord type="start" x="0.6" y="0"/>
             <coord type="normal" x="0.6" y="-0.6"/>
             <coord type="normal" x="0" y="-0.6"/>
         </path>
-        <path name="p" nextpath="b">
+        <path name="p" nextpath="q">
             <coord type="start" x="0" y="-0.6"/>
             <coord type="normal" x="-0.6" y="-0.6"/>
             <coord type="normal" x="-0.6" y="0"/>
@@ -91,107 +91,107 @@
 
 
 
-        <path name="q" nextpath="b">
+        <path name="q" nextpath="r">
             <coord type="start" x="-0.4" y="0"/>
             <coord type="normal" x="-0.5" y="0.5"/>
             <coord type="normal" x="0" y="0.5"/>
         </path>
-        <path name="r" nextpath="b">
+        <path name="r" nextpath="s">
             <coord type="start" x="0" y="0.5"/>
             <coord type="normal" x="0.5" y="0.5"/>
             <coord type="normal" x="0.5" y="0"/>
         </path>
-        <path name="s" nextpath="b">
+        <path name="s" nextpath="t">
             <coord type="start" x="0.5" y="0"/>
             <coord type="normal" x="0.5" y="-0.5"/>
             <coord type="normal" x="0" y="-0.5"/>
         </path>
-        <path name="t" nextpath="b">
+        <path name="t" nextpath="u">
             <coord type="start" x="0" y="-0.5"/>
             <coord type="normal" x="-0.5" y="-0.5"/>
             <coord type="normal" x="-0.5" y="0"/>
         </path>
 
 
-        <path name="u" nextpath="b">
+        <path name="u" nextpath="v">
             <coord type="start" x="-0.3" y="0"/>
             <coord type="normal" x="-0.4" y="0.4"/>
             <coord type="normal" x="0" y="0.4"/>
         </path>
-        <path name="v" nextpath="b">
+        <path name="v" nextpath="w">
             <coord type="start" x="0" y="0.4"/>
             <coord type="normal" x="0.4" y="0.4"/>
             <coord type="normal" x="0.4" y="0"/>
         </path>
-        <path name="w" nextpath="b">
+        <path name="w" nextpath="x">
             <coord type="start" x="0.4" y="0"/>
             <coord type="normal" x="0.4" y="-0.4"/>
             <coord type="normal" x="0" y="-0.4"/>
         </path>
-        <path name="x" nextpath="b">
+        <path name="x" nextpath="y">
             <coord type="start" x="0" y="-0.4"/>
             <coord type="normal" x="-0.4" y="-0.4"/>
             <coord type="normal" x="-0.4" y="0"/>
         </path>
 
 
-        <path name="y" nextpath="b">
+        <path name="y" nextpath="z">
             <coord type="start" x="-0.2" y="0"/>
             <coord type="normal" x="-0.3" y="0.3"/>
             <coord type="normal" x="0" y="0.3"/>
         </path>
-        <path name="z" nextpath="b">
+        <path name="z" nextpath="a1">
             <coord type="start" x="0" y="0.3"/>
             <coord type="normal" x="0.3" y="0.3"/>
             <coord type="normal" x="0.3" y="0"/>
         </path>
-        <path name="a1" nextpath="b">
+        <path name="a1" nextpath="a2">
             <coord type="start" x="0.3" y="0"/>
             <coord type="normal" x="0.3" y="-0.3"/>
             <coord type="normal" x="0" y="-0.3"/>
         </path>
-        <path name="a2" nextpath="b">
+        <path name="a2" nextpath="a3">
             <coord type="start" x="0" y="-0.3"/>
             <coord type="normal" x="-0.3" y="-0.3"/>
             <coord type="normal" x="-0.3" y="0"/>
         </path>
 
-        <path name="a3" nextpath="b">
+        <path name="a3" nextpath="a4">
             <coord type="start" x="-0.1" y="0"/>
             <coord type="normal" x="-0.2" y="0.2"/>
             <coord type="normal" x="0" y="0.2"/>
         </path>
-        <path name="a4" nextpath="b">
+        <path name="a4" nextpath="a5">
             <coord type="start" x="0" y="0.2"/>
             <coord type="normal" x="0.2" y="0.2"/>
             <coord type="normal" x="0.2" y="0"/>
         </path>
-        <path name="a5" nextpath="b">
+        <path name="a5" nextpath="a6">
             <coord type="start" x="0.2" y="0"/>
             <coord type="normal" x="0.2" y="-0.2"/>
             <coord type="normal" x="0" y="-0.2"/>
         </path>
-        <path name="a6" nextpath="b">
+        <path name="a6" nextpath="a7">
             <coord type="start" x="0" y="-0.2"/>
             <coord type="normal" x="-0.2" y="-0.2"/>
             <coord type="normal" x="-0.2" y="0"/>
         </path>
-        <path name="a7" nextpath="b">
+        <path name="a7" nextpath="a8">
             <coord type="start" x="0" y="0"/>
             <coord type="normal" x="-0.1" y="0.1"/>
             <coord type="normal" x="0" y="0.1"/>
         </path>
-        <path name="a8" nextpath="b">
+        <path name="a8" nextpath="a9">
             <coord type="start" x="0" y="0.1"/>
             <coord type="normal" x="0.1" y="0.1"/>
             <coord type="normal" x="0.1" y="0"/>
         </path>
-        <path name="a9" nextpath="b">
+        <path name="a9" nextpath="a10">
             <coord type="start" x="0.1" y="0"/>
             <coord type="normal" x="0.1" y="-0.1"/>
             <coord type="normal" x="0" y="-0.1"/>
         </path>
-        <path name="a10" nextpath="b">
+        <path name="a10" nextpath="a">
             <coord type="start" x="0" y="-0.1"/>
             <coord type="normal" x="-0.1" y="-0.1"/>
             <coord type="normal" x="-0.1" y="0"/>
