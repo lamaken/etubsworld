@@ -1,0 +1,113 @@
+p {
+	margin-left: 20px;
+}
+body {
+	background-image: url("../img/fondo.png");
+	font-family:monospace;
+    font-size:12px;
+	
+}
+
+#pathsandtubs{
+	color:black;
+	width:43%;
+	background-color:#aaaaaa;
+	bottom: 10px;
+	left: 20px;
+	position: absolute;
+	padding: 15px;
+	top:90%;
+}
+
+
+#pathsandtubs{
+	color:black;
+	width:43%;
+	background-color:#aaaaaa;
+	bottom: 10px;
+	left: 20px;
+	position: absolute;
+	padding: 15px;
+	top:90%;
+}
+
+
+#myCanvas {
+	left: 20px;
+	top: 20px;
+	right:120px;
+	bottom:500px;
+	background-color: black;
+	color: green;
+	position: absolute;
+	border: #999999 1px solid;
+}
+
+
+	
+#tbcanvas {
+	left: 20px;
+	top: 20px;
+	width: 43%;
+	bottom:100px;
+	padding: 20px;
+	background-color: white;
+	color: green;
+	position: absolute;
+	border: #555555 2px solid;
+}
+
+
+
+#data{
+	color:black;
+	height:76px;
+	background-color:#aaaaaa;
+	bottom: 10px;
+	left: 20px;
+	position: absolute;
+	padding: 5px;
+}
+#src {
+	bottom: 100px;
+	width: 46%;
+	top: 20px;
+	right: 20px;
+        padding: 5px;
+	background-color: #333333;
+	color: green;
+	position: absolute;
+	border: #999999 1px solid;
+}
+#drop_zone{
+	left: 10px;
+	top: 50px;
+	position: absolute;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons {
+	left: 10px;
+	top: 20px;
+	position: absolute;
+}
+#circuits{
+	left: 10px;
+	bottom:10px;
+	position: absolute;
+}
+#debug{
+	color:lime;
+	
+	background-color:black;
+	bottom: 23px;
+	right: 23px;
+	width:46%;
+        top:23px;
+	position: absolute;
+	padding: 15px;
+	overflow-x: auto;
+	overflow-y: auto;}
+

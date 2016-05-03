@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>timerDemo</title>
+        <script type="text/javascript" src = "njs/simpleGame.js"></script>
+        <script type="text/javascript" src="njs/debug.js"></script>
+        <script type="text/javascript" src="njs/tubsworld.js"></script>
+        <script type="text/javascript" src="njs/animation.js"></script>
+        <script type="text/javascript" src="njs/circuitdyn.js"></script>
+        <script type="text/javascript" src="njs/index.js"></script>
+        <script type="text/javascript" src="njs/Manifest.js"></script>
+
+        <script type="text/javascript" src="njs/draw.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/hello.css">
+
+
+        <script type="text/javascript">
+            var timer;
+            var output;
+            var game;
+            var stop=false;
+
+            function mainInit() {
+
+                load("circuit3.xml");
+                //drawAll();
+                
+               
+
+                game = new Scene();
+                output = document.getElementById("output");
+                timer = new Timer();
+                timer.reset();
+                game.start();
+                
+            } // end init
+
+            function update() {
+                game.hide();
+                currentTime = timer.getElapsedTime();
+                output.innerHTML = currentTime;
+                //debug.output("time:" + currentTime);
+                if(!stop) animate2();
+               
+            } // end update
+
+            function reset() {
+                timer.reset();
+                stop=!stop;
+            } // end reset
+        </script>
+    </head>
+    <body onload = "mainInit()">
+
+        <div id="img">
+            <canvas  onclick="swapp()" id="myCanvas" width="450" height="450"> 
+                <!-- TODO:Pensar en fer amb els tamanys -->
+                NO CANVAS!!
+            </canvas>
+        </div>
+
+
+        <div id="output">empty</div>
+        <button onclick = "reset()">
+            reset timer
+        </button>
+
+
+        <div id="debug">
+            error
+        </div>
+        <script>
+            var debug = new Debug("player");
+            var animation_debug = new Debug("aniamte.js");
+            debug.output("get clone and go!");
+            debug.output("git@github.com:lamaken/etubsworld.git");
+        </script>
+
+
+    </body>
+</html>
