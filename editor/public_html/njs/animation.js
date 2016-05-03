@@ -127,7 +127,7 @@ function animate2() {
 
 
     percentGate += 10;
-    percentPath += 10;
+    percentPath +=10;
 
 }
 
@@ -137,6 +137,7 @@ function drawBall() {
             percentGate = 0;
             percentPath = 0;
             ppath = fnextPathfromGate(ggate);
+            drawPilotaThrowPath(percentPath, ppath);
         } else
             drawPilotaThrowGate(percentGate, ggate);
     } else {
@@ -147,7 +148,9 @@ function drawBall() {
             ppath = fnextpath(ppath);
             if (ppath === nextPathNotExists) {
                 ggate = fnextgate(antpath);
-            }
+                
+                drawPilotaThrowGate(percentGate, ggate);
+            }else drawPilotaThrowPath(percentPath, ppath);
         } else
             drawPilotaThrowPath(percentPath, ppath);
     }
